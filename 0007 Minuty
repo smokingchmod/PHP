@@ -1,0 +1,26 @@
+<html>
+<body>
+<?php
+$godzina=date("h");
+$godzina2=date("A");
+$minuta=date("i");
+$sekunda=date("s");
+$dzien=date("l");
+$data=date("d-m-Y");
+{
+header('refresh: 1;');
+echo ($godzina);
+echo ":";
+echo ($minuta);
+echo ":";
+echo ($sekunda);
+echo "  ";
+echo ($godzina2);
+echo "<br>";
+echo ($data);
+echo "<br>";
+echo ($dzien);
+}
+?>
+</body>
+</html>
