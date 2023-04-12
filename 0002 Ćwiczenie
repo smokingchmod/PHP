@@ -1,0 +1,7 @@
+<html>
+<body>
+<?php
+	echo "sprzedam opla";
+?>
+</body>
+</html>
