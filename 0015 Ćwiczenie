@@ -1,0 +1,17 @@
+<html>
+<body>
+<?php
+$data=date("2017-10-27");
+$czas=date("H:i:s");
+{
+echo "Dzień dobry $data o godzinie $czas " ;
+echo"<br>"
+$dni_tygodnia=array ("niedziela", "środa", "wtorek", "czwartek", "sobota", "piątek");
+$date=date("w");
+echo "nareszcie" . $dni_tygodnia [$date];
+}
+$s="1"
+header("refresh: $s");
+?>
+</body>
+</html>
