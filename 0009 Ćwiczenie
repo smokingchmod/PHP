@@ -1,0 +1,13 @@
+<html>
+<body>
+<?php
+$i=0;
+do
+{
+$i++;
+echo "Kolejna liczba: " .$i . "<br>";
+}
+while ($i<5);
+?>
+</body>
+</html>
