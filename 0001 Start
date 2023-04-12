@@ -1,0 +1,11 @@
+<html>
+<body>
+<?php
+$tablica=array("jeden", "dwa", "trzy");
+foreach($tablica as $tekst)
+{
+echo "liczebnik: " . $tekst . "<br>"
+}
+?>
+</body>
+</html>
