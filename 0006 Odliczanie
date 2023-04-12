@@ -1,0 +1,27 @@
+<html>
+<body>
+<?php
+$dzien=date("w");
+switch ($dzien)
+{
+case "1":
+echo "Dzis jest poniedzialek";
+break;
+case "2":
+echo "No i juz wtorek";
+break;
+case "3":
+echo "No poszlo, sroda";
+break;
+case "4":
+echo "Dopiero czwartek";
+break;
+case "5":
+echo "Nareszcie piatek";
+break;
+default:
+echo "Teraz mamy weekend!";
+}
+?>
+</body>
+</html>
