@@ -1,0 +1,14 @@
+<html>
+<body>
+<?php
+$godzina=date("H");
+if ($godzina<"14")
+echo "Dzien dobry!";
+else
+{
+echo "Dobry wieczor!";
+echo "Czas odpoczac!";
+}
+?>
+</body>
+</html>
