@@ -1,0 +1,9 @@
+<html>
+<body>
+<?php
+if (!($f=fopen("misie.txt" , "r")))
+exit("Pliku nie można otworzyć!");
+echo "Plik można otworzyć"
+?>
+</body>
+</html>
