@@ -1,0 +1,27 @@
+<html>
+<body>
+<?php
+echo "stosowana przeglondarka: " . $_SERVER["HTTP_USER_AGENT"] . "<br>";
+echo "Port ip: : " . $_SERVER["SERVER_PORT"] . "<br>";
+echo "nazwa i wersja protokołu: " . $_SERVER["SERVER_PROTOCOL"] . "<br>";
+echo "Adres IP użytkownika: " . $_SERVER["REMOTE_ADDR"];
+echo "sciezka skryptu: " . $_SERVER["SCRIPT_NAME"] . "<br>";
+echo "katalog główny skryptu: " . $_SERVER["DOCUMENT_ROOT"] . "<br>";
+echo "Port: " . $_SERVER["REMOTE_PORT"] . "<BR>";
+echo "Protokol: " . $_SERVER["SERVER_PROTOCOL"] . "<BR>";
+echo "Podpis serwera: " . $_SERVER["SERVER_SIGNATURE"] . "<BR>";
+echo "Nazwa serwera: " . $_SERVER["SERVER_NAME"] . "<BR>";
+echo "Port: " . $_SERVER["SERVER_PORT"] . "<BR>";
+echo "Admin: " . $_SERVER["SERVER_ADMIN"] . "<BR>";
+echo "Oprogramowanie: " . $_SERVER["SERVER_SOFTWARE"] . "<br>";
+echo "Czas: " . $_SERVER["REQUEST_TIME"] . "<BR>";
+echo "Jezyk: " . $_SERVER["HTTP_ACCEPT_LANGUAGE"] . "<BR>";
+echo "Nazwa skryptu: " . $_SERVER["SCRIPT_NAME"] . "<BR>";
+echo "Polaczenie: " . $_SERVER["HTTP_CONNECTION"] . "<BR>";
+echo "Sciezka systemu: " . $_SERVER["SystemRoot"] . "<BR>";
+echo "Sciezka CMD: " . $_SERVER["COMSPEC"] . "<BR>";
+echo "Sciezka dokumentu: " . $_SERVER["DOCUMENT_ROOT"] . "<BR>";
+echo "sciezka skryptu: " . $_SERVER["SCRIPT_FILENAME"] . "<br>";
+?>
+</body>
+</html>
