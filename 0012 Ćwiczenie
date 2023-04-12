@@ -1,0 +1,51 @@
+<html>
+<body>
+<?php
+$godzina=date("h");
+$godzina2=date("A");
+$minuta=date("i");
+$sekunda=date("s");
+$dzien=date("l");
+$data=date("d-m-Y");
+{
+header('refresh: 1;');
+echo "Czas: ";
+echo ($godzina);
+echo ":";
+echo ($minuta);
+echo ":";
+echo ($sekunda);
+echo "  ";
+echo ($godzina2);
+echo "<br>";
+echo "Data: ";
+echo ($data);
+echo "<br>";
+echo "Dzien tygodnia: ";
+echo ($dzien) . "<br>";
+}
+echo "Stosowana przegladarka: " . $_SERVER["HTTP_USER_AGENT"] . "<br>";
+echo "Adres IP uzytkownika: " . $_SERVER["REMOTE_ADDR"] . "<br>";
+echo "Jezyk uzytkownika: " . $_SERVER["HTTP_ACCEPT_LANGUAGE"] . "<br>";
+echo "Polaczenie: " . $_SERVER["HTTP_CONNECTION"] . "<br>";
+echo "Siec: " . $_SERVER["HTTP_HOST"] . "<br>";
+echo "Aktualizacje: " . $_SERVER["HTTP_UPGRADE_INSECURE_REQUESTS"] . "<br>";
+echo "Typy tresci akceptowalnych przez przegladarke: " . $_SERVER["HTTP_ACCEPT"] . "<br>";
+echo "Nazwa serwera: " . $_SERVER["SERVER_NAME"] . "<br>";
+echo "Nazwa skryptu: " . $_SERVER["SCRIPT_NAME"] . "<br>";
+echo "Port: " . $_SERVER["SERVER_PORT"] . "<br>";
+echo "Email: " . $_SERVER["SERVER_ADMIN"] . "<br>";
+echo "Protokol serwera: " . $_SERVER["SERVER_PROTOCOL"] . "<br>";
+echo "System: " . $_SERVER["WINDIR"] . "<br>";
+echo "Opis serwera: " . $_SERVER["SERVER_SIGNATURE"] . "<br>";
+echo "Konsola polecen: " . $_SERVER["COMSPEC"] . "<br>";
+echo "Domena: " . $_SERVER["PATHEXT"] . "<br>";
+echo "Plik zapisany w: " . $_SERVER["DOCUMENT_ROOT"] . "<br>";
+echo "Plik hipertekstowy: " . $_SERVER["REQUEST_SCHEME"] . "<br>";
+echo "Interfejs: " . $_SERVER["GATEWAY_INTERFACE"] . "<br>";
+echo "Admin: " . $_SERVER["SystemRoot"] . "<br>";
+echo "Ogolne informacje: " . $_SERVER["PATH"] . "<br>";
+echo "Czas otrzymania rzadania przez serwer http w sekundach: " . $_SERVER["REQUEST_TIME"];
+?>
+</body>
+</html>
