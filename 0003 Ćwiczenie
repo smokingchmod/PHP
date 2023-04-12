@@ -1,0 +1,9 @@
+<html>
+<body>
+<?php
+$txt1="Witaj w swiecie PHP!";
+$txt2="Zapraszam!";
+echo $txt1 . " lol____ " . $txt2 ;
+?>
+</body>
+</html>
